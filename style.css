@@ -1,0 +1,163 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 18, 18);
+    padding: 1.2rem;
+}
+
+h1{
+    color: white;
+    cursor: pointer;
+}
+.right button{
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgb(217, 18, 18);
+    border: none;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.search{
+padding-top: 1.5rem;
+display: flex;
+justify-content: center;
+background-color: rgb(188, 188, 188);
+padding: 1.5rem 0rem;
+}
+.searching{
+    width: 400px;
+    max-width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.search>button{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    background-color: rgb(217, 18, 18);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Image/mover.jpg);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.hero>h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+}
+.hero>button{
+    background-color: rgb(217, 18, 18);
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.new{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+.imgs{
+    cursor: pointer;
+    width: 60vw;
+    border-radius: 10px;
+}
+.popular{
+    text-align: center;
+    padding: 1rem;
+}
+.popular>h2{
+    font-size: 2rem;
+    font-weight:bold;
+}
+.images{
+    height: 300px;
+    cursor: pointer;
+}
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.card{
+    border: 0.3rem solid rgb(222, 220, 220);
+    background-color: rgb(250, 248, 248);
+    text-align: center;
+    margin-left: 1.5rem;
+    border-radius: 10px;
+}
+.card>h3{
+    font-size: 1.4rem;
+}
+.card>h4{
+    font-size: 1.1rem;
+    color: rgb(97, 94, 94);
+    margin-top: 0.5rem;}
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bot>img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+.best{
+    text-align: center;
+margin-top: 1rem;
+}
+.best>h2{
+font-size: 2rem;
+font-weight: bold;
+}
+.work{
+    display: flex;
+    overflow-x: scroll;
+    margin: 2rem;
+    gap: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.eve{
+    border-radius: 10px;
+}
+@media (max-width: 650px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .movie{
+        flex-direction: column;
+        gap: 0.5rem;
+        border: 0.2rem;
+    }
+    .work{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
