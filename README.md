@@ -5,6 +5,10 @@ It’s a simple front-end project that replicates the basic structure and design
 
 ---
 
+## 🔗 Live Demo
+
+- Check out project here: [BOOKMyShow Clone](https://thelaxmikamat.github.io/Book-My-Show-Clone/)
+
 ## ⭐ Features
 
 - 🎟️ **Header Navigation Bar** with buttons for Movies, Events, Sports, and Search.  
