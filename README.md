@@ -43,3 +43,12 @@ It’s a simple front-end project that replicates the basic structure and design
        |- bottom.avif
        |-mover.jpg
 
+ ---
+
+### **📌 Disclaimer**
+
+This project is a **non-commercial educational clone** of the original website. It is **not affiliated with, endorsed by, or connected to** the respective company in any way.
+All trademarks, logos, and brand assets belong to their **rightful owners**.
+This clone is built **only for learning and practice purposes**.
+
+
