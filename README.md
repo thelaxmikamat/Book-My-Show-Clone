@@ -30,6 +30,7 @@ It’s a simple front-end project that replicates the basic structure and design
 ---
 
 ## 📂 Folder Structure
+text```
 
 🎥BOOKMyShow/
     |-index.html
